@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>858436935062-k0lalrhps6taddhagnmugmfpec9e7j0u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.858436935062-k0lalrhps6taddhagnmugmfpec9e7j0u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBAbXJFUI7RshyHhfJ8nQGsTJ31VAMI0zQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>858436935062</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.buffalo.pocketcare.s</string>
+	<key>PROJECT_ID</key>
+	<string>pocketcare-1889b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pocketcare-1889b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:858436935062:ios:2fffc8f2b20ddd81b751b7</string>
+	<key>DATABASE_URL</key>
+	<string>https://pocketcare-1889b.firebaseio.com</string>
+</dict>
+</plist>

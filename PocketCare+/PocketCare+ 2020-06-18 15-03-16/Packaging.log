@@ -1,0 +1,730 @@
+2020-06-18 19:02:59 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa85d8fa450; archive(resolved)='<IDEArchive: 0x7fa85f5321e0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa85d8fa450; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa85b891cd0; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa85b864120; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa842502850; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa84e034690; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa85be1c0e0; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa85bec48a0; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa8508c3a30; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa843746980; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa85701a740; teamID='C85HD75Z6W', teamName='MD Chowdhury', teamType='Individual', username='mdrafsan@buffalo.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa84e6174a0; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='(null)'>
+	<IDEDistributionContext: 0x7fa86161fb50; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fa85b88e820>', team='(null)'>
+	<IDEDistributionContext: 0x7fa845e2e960; archive = '<IDEArchive: 0x7fa85f5321e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa85d8fa450>
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionCopyItemStep
+2020-06-18 19:02:59 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app'
+2020-06-18 19:02:59 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app 
+2020-06-18 19:02:59 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  15539 bytes for ./_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./AppIcon60x60@2x.png ... 
+2020-06-18 19:02:59 +0000  19419 bytes for ./AppIcon60x60@2x.png
+2020-06-18 19:02:59 +0000  copying file ./GoogleService-Info.plist ... 
+2020-06-18 19:02:59 +0000  734 bytes for ./GoogleService-Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-06-18 19:02:59 +0000  2042 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-06-18 19:02:59 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-06-18 19:02:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-06-18 19:02:59 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Assets.car ... 
+2020-06-18 19:02:59 +0000  1548079 bytes for ./Assets.car
+2020-06-18 19:02:59 +0000  copying file ./PocketCare_.momd/PocketCare_.omo ... 
+2020-06-18 19:02:59 +0000  3776 bytes for ./PocketCare_.momd/PocketCare_.omo
+2020-06-18 19:02:59 +0000  copying file ./PocketCare_.momd/VersionInfo.plist ... 
+2020-06-18 19:02:59 +0000  254 bytes for ./PocketCare_.momd/VersionInfo.plist
+2020-06-18 19:02:59 +0000  copying file ./PocketCare_.momd/PocketCare_.mom ... 
+2020-06-18 19:02:59 +0000  1734 bytes for ./PocketCare_.momd/PocketCare_.mom
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Protobuf.framework/Protobuf ... 
+2020-06-18 19:02:59 +0000  3029952 bytes for ./Frameworks/Protobuf.framework/Protobuf
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Protobuf.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  739 bytes for ./Frameworks/Protobuf.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/FBLPromises.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/FBLPromises.framework/FBLPromises ... 
+2020-06-18 19:02:59 +0000  684960 bytes for ./Frameworks/FBLPromises.framework/FBLPromises
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/FBLPromises.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  744 bytes for ./Frameworks/FBLPromises.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/UTMConversion.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/UTMConversion.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/UTMConversion.framework/UTMConversion ... 
+2020-06-18 19:02:59 +0000  270432 bytes for ./Frameworks/UTMConversion.framework/UTMConversion
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/UTMConversion.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  748 bytes for ./Frameworks/UTMConversion.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+2020-06-18 19:02:59 +0000  1054080 bytes for ./Frameworks/GoogleUtilities.framework/GoogleUtilities
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/GoogleUtilities.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  754 bytes for ./Frameworks/GoogleUtilities.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/FSCalendar.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/FSCalendar.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/FSCalendar.framework/FSCalendar ... 
+2020-06-18 19:02:59 +0000  1660512 bytes for ./Frameworks/FSCalendar.framework/FSCalendar
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/FSCalendar.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  742 bytes for ./Frameworks/FSCalendar.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/CryptoSwift.framework/CryptoSwift ... 
+2020-06-18 19:02:59 +0000  3449840 bytes for ./Frameworks/CryptoSwift.framework/CryptoSwift
+copying file ./Frameworks/CryptoSwift.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  744 bytes for ./Frameworks/CryptoSwift.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/JGProgressHUD.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/JGProgressHUD.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/JGProgressHUD.framework/JGProgressHUD ... 
+2020-06-18 19:02:59 +0000  689728 bytes for ./Frameworks/JGProgressHUD.framework/JGProgressHUD
+copying file ./Frameworks/JGProgressHUD.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  748 bytes for ./Frameworks/JGProgressHUD.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Eureka.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/Eureka.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Eureka.framework/Eureka ... 
+2020-06-18 19:02:59 +0000  9117200 bytes for ./Frameworks/Eureka.framework/Eureka
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Eureka.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  734 bytes for ./Frameworks/Eureka.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/nanopb.framework/nanopb ... 
+2020-06-18 19:02:59 +0000  278144 bytes for ./Frameworks/nanopb.framework/nanopb
+copying file ./Frameworks/nanopb.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  738 bytes for ./Frameworks/nanopb.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2020-06-18 19:02:59 +0000  3693040 bytes for ./Frameworks/Alamofire.framework/Alamofire
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+740 bytes for ./Frameworks/Alamofire.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/ScrollableGraphView.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/ScrollableGraphView.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/ScrollableGraphView.framework/ScrollableGraphView ... 
+2020-06-18 19:02:59 +0000  1911792 bytes for ./Frameworks/ScrollableGraphView.framework/ScrollableGraphView
+copying file ./Frameworks/ScrollableGraphView.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  762 bytes for ./Frameworks/ScrollableGraphView.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Charts.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/Charts.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Charts.framework/Charts ... 
+2020-06-18 19:02:59 +0000  13972128 bytes for ./Frameworks/Charts.framework/Charts
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/Charts.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  734 bytes for ./Frameworks/Charts.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/AlamofireMapper.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:02:59 +0000  1798 bytes for ./Frameworks/AlamofireMapper.framework/_CodeSignature/CodeResources
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/AlamofireMapper.framework/AlamofireMapper ... 
+2020-06-18 19:02:59 +0000  271904 bytes for ./Frameworks/AlamofireMapper.framework/AlamofireMapper
+2020-06-18 19:02:59 +0000  copying file ./Frameworks/AlamofireMapper.framework/Info.plist ... 
+2020-06-18 19:02:59 +0000  754 bytes for ./Frameworks/AlamofireMapper.framework/Info.plist
+2020-06-18 19:02:59 +0000  copying file ./embedded.mobileprovision ... 
+2020-06-18 19:02:59 +0000  9865 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2020-06-18 19:02:59 +0000  2447 bytes for ./Info.plist
+copying file ./PocketCare S ... 
+2020-06-18 19:02:59 +0000  14774160 bytes for ./PocketCare S
+2020-06-18 19:02:59 +0000  copying file ./PkgInfo ... 
+2020-06-18 19:02:59 +0000  8 bytes for ./PkgInfo
+2020-06-18 19:02:59 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa85f55de10; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fa86208c220:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa845ebb290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8588717c0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fa86205c460:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa84e0474a0; bundleID='org.cocoapods.AlamofireMapper', path='<DVTFilePath:0x7fa8620999f0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b8cfdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8616ef7d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.AlamofireMapper', executablePath='<DVTFilePath:0x7fa85083e380:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework/AlamofireMapper'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa85c0a5ba0; bundleID='org.cocoapods.Charts', path='<DVTFilePath:0x7fa85bd1eaf0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8430e5400; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8616ef7d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Charts', executablePath='<DVTFilePath:0x7fa8430f94e0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework/Charts'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa850f45ea0; bundleID='org.cocoapods.CryptoSwift', path='<DVTFilePath:0x7fa85e50ec50:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8338b5ba0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8588717c0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.CryptoSwift', executablePath='<DVTFilePath:0x7fa85c716ae0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework/CryptoSwift'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa86208aef0; bundleID='org.cocoapods.Eureka', path='<DVTFilePath:0x7fa832d22cb0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84f100970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8616ef7d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Eureka', executablePath='<DVTFilePath:0x7fa8437e9dd0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework/Eureka'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa84f7ee900; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fa861073210:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a4b5e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8616ef7d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fa8460820a0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa85d8d69d0; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x7fa85bf1f870:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa857be6dc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8616ef7d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x7fa8514bbba0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa8620d74d0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fa85ffdcc60:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85d8cea00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8588717c0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fa850a84790:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa85789d1e0; bundleID='org.cocoapods.JGProgressHUD', path='<DVTFilePath:0x7fa85ffc06c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a11c1f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8616ef7d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.JGProgressHUD', executablePath='<DVTFilePath:0x7fa84a40cc80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework/JGProgressHUD'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa850f36af0; bundleID='org.cocoapods.Protobuf', path='<DVTFilePath:0x7fa85ff38e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa858e0ae40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85d8954d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Protobuf', executablePath='<DVTFilePath:0x7fa85d982a30:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework/Protobuf'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa85bee93d0; bundleID='org.cocoapods.ScrollableGraphView', path='<DVTFilePath:0x7fa84f0ba430:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa860026e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8616ef7d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.ScrollableGraphView', executablePath='<DVTFilePath:0x7fa85c6759c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework/ScrollableGraphView'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa85dba5290; bundleID='org.cocoapods.UTMConversion', path='<DVTFilePath:0x7fa85e608b80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b82f0e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85d8954d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.UTMConversion', executablePath='<DVTFilePath:0x7fa85f53b970:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework/UTMConversion'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa8578813c0; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fa85ffa9ec0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85ebe8860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85d8954d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fa84e2a2e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionInfoPlistStep
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionItemRemovalStep
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-06-18 19:02:59 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-06-18 19:02:59 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-06-18 19:03:00 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/241A2C2B-54EC-3E71-A92E-7B230BFAA2AA.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/241A2C2B-54EC-3E71-A92E-7B230BFAA2AA.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/241A2C2B-54EC-3E71-A92E-7B230BFAA2AA.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./241A2C2B-54EC-3E71-A92E-7B230BFAA2AA.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  326151 bytes for ./241A2C2B-54EC-3E71-A92E-7B230BFAA2AA.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/6F0B8196-A0E1-37A0-BA2B-003E4A0F4966.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/6F0B8196-A0E1-37A0-BA2B-003E4A0F4966.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/6F0B8196-A0E1-37A0-BA2B-003E4A0F4966.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./6F0B8196-A0E1-37A0-BA2B-003E4A0F4966.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  30646 bytes for ./6F0B8196-A0E1-37A0-BA2B-003E4A0F4966.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/25D20642-64B3-3552-A277-1C7A657FC272.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/25D20642-64B3-3552-A277-1C7A657FC272.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/25D20642-64B3-3552-A277-1C7A657FC272.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./25D20642-64B3-3552-A277-1C7A657FC272.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  735586 bytes for ./25D20642-64B3-3552-A277-1C7A657FC272.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/85443CA5-3092-30FB-80A7-CE8DD2170568.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/85443CA5-3092-30FB-80A7-CE8DD2170568.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/85443CA5-3092-30FB-80A7-CE8DD2170568.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./85443CA5-3092-30FB-80A7-CE8DD2170568.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  246737 bytes for ./85443CA5-3092-30FB-80A7-CE8DD2170568.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/173FED37-1175-33CF-A771-BBFC58540A97.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/173FED37-1175-33CF-A771-BBFC58540A97.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/173FED37-1175-33CF-A771-BBFC58540A97.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./173FED37-1175-33CF-A771-BBFC58540A97.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  606584 bytes for ./173FED37-1175-33CF-A771-BBFC58540A97.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/F589959E-7AB5-3D0C-8FE5-DBD808591116.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/F589959E-7AB5-3D0C-8FE5-DBD808591116.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/F589959E-7AB5-3D0C-8FE5-DBD808591116.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./F589959E-7AB5-3D0C-8FE5-DBD808591116.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  50278 bytes for ./F589959E-7AB5-3D0C-8FE5-DBD808591116.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/9C05E179-FA26-3F24-923F-AD61D56E9BA5.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/9C05E179-FA26-3F24-923F-AD61D56E9BA5.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/9C05E179-FA26-3F24-923F-AD61D56E9BA5.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./9C05E179-FA26-3F24-923F-AD61D56E9BA5.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  74721 bytes for ./9C05E179-FA26-3F24-923F-AD61D56E9BA5.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/A511C902-F162-3C3D-9BE8-B0F2EE829C44.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/A511C902-F162-3C3D-9BE8-B0F2EE829C44.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/A511C902-F162-3C3D-9BE8-B0F2EE829C44.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./A511C902-F162-3C3D-9BE8-B0F2EE829C44.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  55046 bytes for ./A511C902-F162-3C3D-9BE8-B0F2EE829C44.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/AA849982-EC8A-3CED-A3F3-F7D707579FE9.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/AA849982-EC8A-3CED-A3F3-F7D707579FE9.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/AA849982-EC8A-3CED-A3F3-F7D707579FE9.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./AA849982-EC8A-3CED-A3F3-F7D707579FE9.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  37932 bytes for ./AA849982-EC8A-3CED-A3F3-F7D707579FE9.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/F16BB581-01C9-3896-B1E1-FCD89EC4A0CC.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/F16BB581-01C9-3896-B1E1-FCD89EC4A0CC.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/F16BB581-01C9-3896-B1E1-FCD89EC4A0CC.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./F16BB581-01C9-3896-B1E1-FCD89EC4A0CC.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  177232 bytes for ./F16BB581-01C9-3896-B1E1-FCD89EC4A0CC.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/6832AFA2-DB21-3CBA-93E5-681C65AAB0FC.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/6832AFA2-DB21-3CBA-93E5-681C65AAB0FC.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/6832AFA2-DB21-3CBA-93E5-681C65AAB0FC.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./6832AFA2-DB21-3CBA-93E5-681C65AAB0FC.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  183063 bytes for ./6832AFA2-DB21-3CBA-93E5-681C65AAB0FC.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/70FC0C3C-B3F3-3C85-910F-A121D3B46126.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/70FC0C3C-B3F3-3C85-910F-A121D3B46126.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/70FC0C3C-B3F3-3C85-910F-A121D3B46126.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./70FC0C3C-B3F3-3C85-910F-A121D3B46126.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  27843 bytes for ./70FC0C3C-B3F3-3C85-910F-A121D3B46126.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/3701E8D9-548A-34D2-A190-9BEB13AF3E99.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/3701E8D9-548A-34D2-A190-9BEB13AF3E99.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/3701E8D9-548A-34D2-A190-9BEB13AF3E99.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./3701E8D9-548A-34D2-A190-9BEB13AF3E99.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  12676 bytes for ./3701E8D9-548A-34D2-A190-9BEB13AF3E99.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Running /usr/bin/ditto '-V' '/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/29FFDD8D-E8D4-395C-8030-4FA733EFFCA1.bcsymbolmap' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/BCSymbolMaps/29FFDD8D-E8D4-395C-8030-4FA733EFFCA1.bcsymbolmap'
+2020-06-18 19:03:00 +0000  >>> Copying /Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/BCSymbolMaps/29FFDD8D-E8D4-395C-8030-4FA733EFFCA1.bcsymbolmap 
+2020-06-18 19:03:00 +0000  copying file ./29FFDD8D-E8D4-395C-8030-4FA733EFFCA1.bcsymbolmap ... 
+2020-06-18 19:03:00 +0000  714190 bytes for ./29FFDD8D-E8D4-395C-8030-4FA733EFFCA1.bcsymbolmap
+2020-06-18 19:03:00 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:00 +0000  Processing step: IDEDistributionSymbolsStep
+2020-06-18 19:03:00 +0000  Excluding symbols for Alamofire.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for AlamofireMapper.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for Charts.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for CryptoSwift.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for Eureka.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for FBLPromises.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for FSCalendar.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for GoogleUtilities.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for JGProgressHUD.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for Protobuf.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for ScrollableGraphView.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for UTMConversion.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for nanopb.framework
+2020-06-18 19:03:00 +0000  Excluding symbols for PocketCare S.app
+2020-06-18 19:03:00 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2020-06-18 19:03:00 +0000  Processing step: IDEDistributionAppThinningStep
+2020-06-18 19:03:00 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-06-18 19:03:00 +0000  Processing step: IDEDistributionArchThinningStep
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Alamofire.framework/Alamofire' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "Alamofire" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework/AlamofireMapper' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "AlamofireMapper" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Charts.framework/Charts' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "Charts" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/CryptoSwift.framework/CryptoSwift' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "CryptoSwift" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Eureka.framework/Eureka' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "Eureka" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/FBLPromises.framework/FBLPromises' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "FBLPromises" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/FSCalendar.framework/FSCalendar' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "FSCalendar" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework/GoogleUtilities' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "GoogleUtilities" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework/JGProgressHUD' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "JGProgressHUD" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Protobuf.framework/Protobuf' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "Protobuf" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework/ScrollableGraphView' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "ScrollableGraphView" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/UTMConversion.framework/UTMConversion' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "UTMConversion" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/nanopb.framework/nanopb' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "nanopb" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Running /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/PocketCare S' '-verify_arch' 'arm64e'
+2020-06-18 19:03:00 +0000  /Users/rafsan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-18 19:03:00 +0000  Skipping architecture thinning for item "PocketCare S" because arch "arm64e" wasn't found
+2020-06-18 19:03:00 +0000  Processing step: IDEDistributionODRStep
+2020-06-18 19:03:00 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa85f55de10; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fa86208c220:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa845ebb290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85eb94fb0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fa86205c460:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa84e0474a0; bundleID='org.cocoapods.AlamofireMapper', path='<DVTFilePath:0x7fa8620999f0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b8cfdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa860038c70; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.AlamofireMapper', executablePath='<DVTFilePath:0x7fa85083e380:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework/AlamofireMapper'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa85c0a5ba0; bundleID='org.cocoapods.Charts', path='<DVTFilePath:0x7fa85bd1eaf0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8430e5400; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Charts', executablePath='<DVTFilePath:0x7fa8430f94e0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework/Charts'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa850f45ea0; bundleID='org.cocoapods.CryptoSwift', path='<DVTFilePath:0x7fa85e50ec50:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8338b5ba0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8511e3da0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.CryptoSwift', executablePath='<DVTFilePath:0x7fa85c716ae0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework/CryptoSwift'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa86208aef0; bundleID='org.cocoapods.Eureka', path='<DVTFilePath:0x7fa832d22cb0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84f100970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Eureka', executablePath='<DVTFilePath:0x7fa8437e9dd0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework/Eureka'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa84f7ee900; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fa861073210:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a4b5e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fa8460820a0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa85d8d69d0; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x7fa85bf1f870:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa857be6dc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x7fa8514bbba0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa8620d74d0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fa85ffdcc60:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85d8cea00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8430648c0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fa850a84790:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa85789d1e0; bundleID='org.cocoapods.JGProgressHUD', path='<DVTFilePath:0x7fa85ffc06c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a11c1f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8430648c0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.JGProgressHUD', executablePath='<DVTFilePath:0x7fa84a40cc80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework/JGProgressHUD'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa850f36af0; bundleID='org.cocoapods.Protobuf', path='<DVTFilePath:0x7fa85ff38e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa858e0ae40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa843d07e10; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Protobuf', executablePath='<DVTFilePath:0x7fa85d982a30:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework/Protobuf'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa85bee93d0; bundleID='org.cocoapods.ScrollableGraphView', path='<DVTFilePath:0x7fa84f0ba430:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa860026e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.ScrollableGraphView', executablePath='<DVTFilePath:0x7fa85c6759c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework/ScrollableGraphView'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa85dba5290; bundleID='org.cocoapods.UTMConversion', path='<DVTFilePath:0x7fa85e608b80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b82f0e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85f541470; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.UTMConversion', executablePath='<DVTFilePath:0x7fa85f53b970:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework/UTMConversion'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa8578813c0; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fa85ffa9ec0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85ebe8860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa843d07e10; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fa84e2a2e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>
+2020-06-18 19:03:00 +0000  Running /usr/bin/xattr '-crs' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app'
+2020-06-18 19:03:01 +0000  /usr/bin/xattr exited with 0
+2020-06-18 19:03:01 +0000  Processing step: IDEDistributionCodesignStep
+2020-06-18 19:03:01 +0000  Entitlements for <IDEDistributionItem: 0x7fa85f55de10; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fa86208c220:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa845ebb290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa860038c70; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fa86205c460:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:01 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa85f55de10; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fa86208c220:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa845ebb290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84cdd7cb0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fa86205c460:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~2G2y9T
+2020-06-18 19:03:01 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~2G2y9T' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Alamofire.framework'
+2020-06-18 19:03:01 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Alamofire]
+2020-06-18 19:03:01 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:01 +0000  Entitlements for <IDEDistributionItem: 0x7fa84e0474a0; bundleID='org.cocoapods.AlamofireMapper', path='<DVTFilePath:0x7fa8620999f0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b8cfdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa860038c70; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.AlamofireMapper', executablePath='<DVTFilePath:0x7fa85083e380:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework/AlamofireMapper'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:01 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa84e0474a0; bundleID='org.cocoapods.AlamofireMapper', path='<DVTFilePath:0x7fa8620999f0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b8cfdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa843d07e10; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.AlamofireMapper', executablePath='<DVTFilePath:0x7fa85083e380:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/AlamofireMapper.framework/AlamofireMapper'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~oCjqeb
+2020-06-18 19:03:01 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~oCjqeb' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework'
+2020-06-18 19:03:02 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AlamofireMapper]
+2020-06-18 19:03:02 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:02 +0000  Entitlements for <IDEDistributionItem: 0x7fa85c0a5ba0; bundleID='org.cocoapods.Charts', path='<DVTFilePath:0x7fa85bd1eaf0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8430e5400; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa860038c70; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Charts', executablePath='<DVTFilePath:0x7fa8430f94e0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework/Charts'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa85c0a5ba0; bundleID='org.cocoapods.Charts', path='<DVTFilePath:0x7fa85bd1eaf0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8430e5400; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84cdd7cb0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Charts', executablePath='<DVTFilePath:0x7fa8430f94e0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Charts.framework/Charts'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~oqv4Ml
+2020-06-18 19:03:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~oqv4Ml' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Charts.framework'
+2020-06-18 19:03:02 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Charts.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Charts]
+2020-06-18 19:03:02 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:02 +0000  Entitlements for <IDEDistributionItem: 0x7fa850f45ea0; bundleID='org.cocoapods.CryptoSwift', path='<DVTFilePath:0x7fa85e50ec50:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8338b5ba0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa860038c70; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.CryptoSwift', executablePath='<DVTFilePath:0x7fa85c716ae0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework/CryptoSwift'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa850f45ea0; bundleID='org.cocoapods.CryptoSwift', path='<DVTFilePath:0x7fa85e50ec50:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa8338b5ba0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa845ee91d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.CryptoSwift', executablePath='<DVTFilePath:0x7fa85c716ae0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/CryptoSwift.framework/CryptoSwift'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~eLyNfc
+2020-06-18 19:03:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~eLyNfc' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/CryptoSwift.framework'
+2020-06-18 19:03:02 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/CryptoSwift.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.CryptoSwift]
+2020-06-18 19:03:02 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:02 +0000  Entitlements for <IDEDistributionItem: 0x7fa86208aef0; bundleID='org.cocoapods.Eureka', path='<DVTFilePath:0x7fa832d22cb0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84f100970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa860038c70; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Eureka', executablePath='<DVTFilePath:0x7fa8437e9dd0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework/Eureka'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa86208aef0; bundleID='org.cocoapods.Eureka', path='<DVTFilePath:0x7fa832d22cb0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84f100970; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b6f6660; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Eureka', executablePath='<DVTFilePath:0x7fa8437e9dd0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Eureka.framework/Eureka'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~lPS4sc
+2020-06-18 19:03:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~lPS4sc' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Eureka.framework'
+2020-06-18 19:03:03 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Eureka.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Eureka]
+2020-06-18 19:03:03 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:03 +0000  Entitlements for <IDEDistributionItem: 0x7fa84f7ee900; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fa861073210:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a4b5e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fa8460820a0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa84f7ee900; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fa861073210:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a4b5e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa845ee91d0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fa8460820a0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~GnS2eO
+2020-06-18 19:03:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~GnS2eO' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/FBLPromises.framework'
+2020-06-18 19:03:03 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/FBLPromises.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.FBLPromises]
+2020-06-18 19:03:03 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:03 +0000  Entitlements for <IDEDistributionItem: 0x7fa85d8d69d0; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x7fa85bf1f870:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa857be6dc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x7fa8514bbba0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa85d8d69d0; bundleID='org.cocoapods.FSCalendar', path='<DVTFilePath:0x7fa85bf1f870:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa857be6dc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84f476b90; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.FSCalendar', executablePath='<DVTFilePath:0x7fa8514bbba0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/FSCalendar.framework/FSCalendar'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~CI3PAQ
+2020-06-18 19:03:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~CI3PAQ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/FSCalendar.framework'
+2020-06-18 19:03:03 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/FSCalendar.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.FSCalendar]
+2020-06-18 19:03:03 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:03 +0000  Entitlements for <IDEDistributionItem: 0x7fa8620d74d0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fa85ffdcc60:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85d8cea00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fa850a84790:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa8620d74d0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fa85ffdcc60:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85d8cea00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84f476b90; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fa850a84790:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~f1x2ij
+2020-06-18 19:03:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~f1x2ij' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework'
+2020-06-18 19:03:03 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleUtilities]
+2020-06-18 19:03:03 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:03 +0000  Entitlements for <IDEDistributionItem: 0x7fa85789d1e0; bundleID='org.cocoapods.JGProgressHUD', path='<DVTFilePath:0x7fa85ffc06c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a11c1f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84cdd7cb0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.JGProgressHUD', executablePath='<DVTFilePath:0x7fa84a40cc80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework/JGProgressHUD'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa85789d1e0; bundleID='org.cocoapods.JGProgressHUD', path='<DVTFilePath:0x7fa85ffc06c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa84a11c1f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84f476b90; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.JGProgressHUD', executablePath='<DVTFilePath:0x7fa84a40cc80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/JGProgressHUD.framework/JGProgressHUD'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~nihEtZ
+2020-06-18 19:03:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~nihEtZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework'
+2020-06-18 19:03:03 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.JGProgressHUD]
+2020-06-18 19:03:03 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:03 +0000  Entitlements for <IDEDistributionItem: 0x7fa850f36af0; bundleID='org.cocoapods.Protobuf', path='<DVTFilePath:0x7fa85ff38e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa858e0ae40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84cdd7cb0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Protobuf', executablePath='<DVTFilePath:0x7fa85d982a30:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework/Protobuf'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:03 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa850f36af0; bundleID='org.cocoapods.Protobuf', path='<DVTFilePath:0x7fa85ff38e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa858e0ae40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84f476b90; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.Protobuf', executablePath='<DVTFilePath:0x7fa85d982a30:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/Protobuf.framework/Protobuf'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~d5BkLa
+2020-06-18 19:03:03 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~d5BkLa' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Protobuf.framework'
+2020-06-18 19:03:04 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/Protobuf.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Protobuf]
+2020-06-18 19:03:04 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:04 +0000  Entitlements for <IDEDistributionItem: 0x7fa85bee93d0; bundleID='org.cocoapods.ScrollableGraphView', path='<DVTFilePath:0x7fa84f0ba430:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa860026e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85eb94fb0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.ScrollableGraphView', executablePath='<DVTFilePath:0x7fa85c6759c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework/ScrollableGraphView'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:04 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa85bee93d0; bundleID='org.cocoapods.ScrollableGraphView', path='<DVTFilePath:0x7fa84f0ba430:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa860026e20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8511e3da0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.ScrollableGraphView', executablePath='<DVTFilePath:0x7fa85c6759c0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/ScrollableGraphView.framework/ScrollableGraphView'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~qPsGn4
+2020-06-18 19:03:04 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~qPsGn4' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework'
+2020-06-18 19:03:04 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.ScrollableGraphView]
+2020-06-18 19:03:04 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:04 +0000  Entitlements for <IDEDistributionItem: 0x7fa85dba5290; bundleID='org.cocoapods.UTMConversion', path='<DVTFilePath:0x7fa85e608b80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b82f0e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8588717c0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.UTMConversion', executablePath='<DVTFilePath:0x7fa85f53b970:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework/UTMConversion'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:04 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa85dba5290; bundleID='org.cocoapods.UTMConversion', path='<DVTFilePath:0x7fa85e608b80:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85b82f0e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.UTMConversion', executablePath='<DVTFilePath:0x7fa85f53b970:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/UTMConversion.framework/UTMConversion'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~4EelsF
+2020-06-18 19:03:04 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~4EelsF' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/UTMConversion.framework'
+2020-06-18 19:03:04 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/UTMConversion.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.UTMConversion]
+2020-06-18 19:03:04 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:04 +0000  Entitlements for <IDEDistributionItem: 0x7fa8578813c0; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fa85ffa9ec0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85ebe8860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa8570037f0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fa84e2a2e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>: {
+}
+2020-06-18 19:03:04 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa8578813c0; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fa85ffa9ec0:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85ebe8860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa85b827cc0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='(null)', teamID='C85HD75Z6W', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fa84e2a2e10:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~paI8Dv
+2020-06-18 19:03:04 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~paI8Dv' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/nanopb.framework'
+2020-06-18 19:03:04 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.nanopb]
+2020-06-18 19:03:04 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:04 +0000  Entitlements for <IDEDistributionItem: 0x7fa850fd5da0; bundleID='edu.buffalo.PocketCareS', path='<DVTFilePath:0x7fa8514e6750:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85be761a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa84cf7aaf0; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='{
+    "application-identifier" = "C85HD75Z6W.edu.buffalo.PocketCareS";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = C85HD75Z6W;
+    "get-task-allow" = 1;
+}', teamID='C85HD75Z6W', identifier='edu.buffalo.PocketCareS', executablePath='<DVTFilePath:0x7fa8430e3630:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/PocketCare S'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "C85HD75Z6W.edu.buffalo.PocketCareS";
+    "aps-environment" = production;
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = C85HD75Z6W;
+    "get-task-allow" = 0;
+}
+2020-06-18 19:03:04 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa850fd5da0; bundleID='edu.buffalo.PocketCareS', path='<DVTFilePath:0x7fa8514e6750:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa85be761a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa860baa060; name='Apple Development: MD Chowdhury (RMK6627Y3P)', hash='66306208E3AE2FDCAADD1A87470A4AE59FB54E46', serialNumber='6BBC8968AEF2E81B', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-01 16:54:55 +0000''>', entitlements='{
+    "application-identifier" = "C85HD75Z6W.edu.buffalo.PocketCareS";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = C85HD75Z6W;
+    "get-task-allow" = 1;
+}', teamID='C85HD75Z6W', identifier='edu.buffalo.PocketCareS', executablePath='<DVTFilePath:0x7fa8430e3630:'/Users/rafsan/Library/Developer/Xcode/Archives/2020-06-18/PocketCare+ 6-18-20, 3.02 PM.xcarchive/Products/Applications/PocketCare S.app/PocketCare S'>', hardenedRuntime='0'>'> to: /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~IJ5vzi
+2020-06-18 19:03:04 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E20F4B99806779BEA73AF19A13672B009900E17B' '--entitlements' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/entitlements~~~IJ5vzi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app'
+2020-06-18 19:03:05 +0000  /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root/Payload/PocketCare S.app: signed app bundle with Mach-O thin (arm64) [edu.buffalo.PocketCareS]
+2020-06-18 19:03:05 +0000  /usr/bin/codesign exited with 0
+2020-06-18 19:03:05 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-18 19:03:05 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-06-18 19:03:05 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root' '/var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Packages/PocketCare+.ipa'
+2020-06-18 19:03:05 +0000  >>> Copying /var/folders/1l/ngpsg2px1j10n7_684g8kkrw0000gn/T/XcodeDistPipeline.~~~jeF8Pr/Root 
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/70FC0C3C-B3F3-3C85-910F-A121D3B46126.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  27843 bytes for ./BCSymbolMaps/70FC0C3C-B3F3-3C85-910F-A121D3B46126.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/85443CA5-3092-30FB-80A7-CE8DD2170568.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  246737 bytes for ./BCSymbolMaps/85443CA5-3092-30FB-80A7-CE8DD2170568.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/6F0B8196-A0E1-37A0-BA2B-003E4A0F4966.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  30646 bytes for ./BCSymbolMaps/6F0B8196-A0E1-37A0-BA2B-003E4A0F4966.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/3701E8D9-548A-34D2-A190-9BEB13AF3E99.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  12676 bytes for ./BCSymbolMaps/3701E8D9-548A-34D2-A190-9BEB13AF3E99.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/241A2C2B-54EC-3E71-A92E-7B230BFAA2AA.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  326151 bytes for ./BCSymbolMaps/241A2C2B-54EC-3E71-A92E-7B230BFAA2AA.bcsymbolmap
+copying file ./BCSymbolMaps/9C05E179-FA26-3F24-923F-AD61D56E9BA5.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  74721 bytes for ./BCSymbolMaps/9C05E179-FA26-3F24-923F-AD61D56E9BA5.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/A511C902-F162-3C3D-9BE8-B0F2EE829C44.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  55046 bytes for ./BCSymbolMaps/A511C902-F162-3C3D-9BE8-B0F2EE829C44.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/F16BB581-01C9-3896-B1E1-FCD89EC4A0CC.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  177232 bytes for ./BCSymbolMaps/F16BB581-01C9-3896-B1E1-FCD89EC4A0CC.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/29FFDD8D-E8D4-395C-8030-4FA733EFFCA1.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  714190 bytes for ./BCSymbolMaps/29FFDD8D-E8D4-395C-8030-4FA733EFFCA1.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/173FED37-1175-33CF-A771-BBFC58540A97.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  606584 bytes for ./BCSymbolMaps/173FED37-1175-33CF-A771-BBFC58540A97.bcsymbolmap
+copying file ./BCSymbolMaps/6832AFA2-DB21-3CBA-93E5-681C65AAB0FC.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  183063 bytes for ./BCSymbolMaps/6832AFA2-DB21-3CBA-93E5-681C65AAB0FC.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/AA849982-EC8A-3CED-A3F3-F7D707579FE9.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  37932 bytes for ./BCSymbolMaps/AA849982-EC8A-3CED-A3F3-F7D707579FE9.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/25D20642-64B3-3552-A277-1C7A657FC272.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  735586 bytes for ./BCSymbolMaps/25D20642-64B3-3552-A277-1C7A657FC272.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./BCSymbolMaps/F589959E-7AB5-3D0C-8FE5-DBD808591116.bcsymbolmap ... 
+2020-06-18 19:03:05 +0000  50278 bytes for ./BCSymbolMaps/F589959E-7AB5-3D0C-8FE5-DBD808591116.bcsymbolmap
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  15539 bytes for ./Payload/PocketCare S.app/_CodeSignature/CodeResources
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/AppIcon60x60@2x.png ... 
+2020-06-18 19:03:05 +0000  19419 bytes for ./Payload/PocketCare S.app/AppIcon60x60@2x.png
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/GoogleService-Info.plist ... 
+2020-06-18 19:03:05 +0000  734 bytes for ./Payload/PocketCare S.app/GoogleService-Info.plist
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-06-18 19:03:05 +0000  2042 bytes for ./Payload/PocketCare S.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-06-18 19:03:05 +0000  896 bytes for ./Payload/PocketCare S.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-06-18 19:03:05 +0000  258 bytes for ./Payload/PocketCare S.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Assets.car ... 
+2020-06-18 19:03:05 +0000  1548079 bytes for ./Payload/PocketCare S.app/Assets.car
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/PocketCare_.momd/PocketCare_.omo ... 
+2020-06-18 19:03:05 +0000  3776 bytes for ./Payload/PocketCare S.app/PocketCare_.momd/PocketCare_.omo
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/PocketCare_.momd/VersionInfo.plist ... 
+2020-06-18 19:03:05 +0000  254 bytes for ./Payload/PocketCare S.app/PocketCare_.momd/VersionInfo.plist
+copying file ./Payload/PocketCare S.app/PocketCare_.momd/PocketCare_.mom ... 
+2020-06-18 19:03:05 +0000  1734 bytes for ./Payload/PocketCare S.app/PocketCare_.momd/PocketCare_.mom
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/Protobuf.framework/Protobuf ... 
+2020-06-18 19:03:05 +0000  2050288 bytes for ./Payload/PocketCare S.app/Frameworks/Protobuf.framework/Protobuf
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/Protobuf.framework/Info.plist ... 
+2020-06-18 19:03:05 +0000  739 bytes for ./Payload/PocketCare S.app/Frameworks/Protobuf.framework/Info.plist
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/FBLPromises.framework/FBLPromises ... 
+2020-06-18 19:03:05 +0000  513840 bytes for ./Payload/PocketCare S.app/Frameworks/FBLPromises.framework/FBLPromises
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/FBLPromises.framework/Info.plist ... 
+744 bytes for ./Payload/PocketCare S.app/Frameworks/FBLPromises.framework/Info.plist
+copying file ./Payload/PocketCare S.app/Frameworks/UTMConversion.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/UTMConversion.framework/_CodeSignature/CodeResources
+copying file ./Payload/PocketCare S.app/Frameworks/UTMConversion.framework/UTMConversion ... 
+2020-06-18 19:03:05 +0000  202352 bytes for ./Payload/PocketCare S.app/Frameworks/UTMConversion.framework/UTMConversion
+copying file ./Payload/PocketCare S.app/Frameworks/UTMConversion.framework/Info.plist ... 
+2020-06-18 19:03:05 +0000  748 bytes for ./Payload/PocketCare S.app/Frameworks/UTMConversion.framework/Info.plist
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+2020-06-18 19:03:05 +0000  782784 bytes for ./Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework/Info.plist ... 
+754 bytes for ./Payload/PocketCare S.app/Frameworks/GoogleUtilities.framework/Info.plist
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/FSCalendar.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/FSCalendar.framework/_CodeSignature/CodeResources
+copying file ./Payload/PocketCare S.app/Frameworks/FSCalendar.framework/FSCalendar ... 
+2020-06-18 19:03:05 +0000  1239664 bytes for ./Payload/PocketCare S.app/Frameworks/FSCalendar.framework/FSCalendar
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/FSCalendar.framework/Info.plist ... 
+742 bytes for ./Payload/PocketCare S.app/Frameworks/FSCalendar.framework/Info.plist
+copying file ./Payload/PocketCare S.app/Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/PocketCare S.app/Frameworks/CryptoSwift.framework/CryptoSwift ... 
+2020-06-18 19:03:05 +0000  2529488 bytes for ./Payload/PocketCare S.app/Frameworks/CryptoSwift.framework/CryptoSwift
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/CryptoSwift.framework/Info.plist ... 
+744 bytes for ./Payload/PocketCare S.app/Frameworks/CryptoSwift.framework/Info.plist
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:05 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework/_CodeSignature/CodeResources
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework/JGProgressHUD ... 
+2020-06-18 19:03:05 +0000  528080 bytes for ./Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework/JGProgressHUD
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework/Info.plist ... 
+748 bytes for ./Payload/PocketCare S.app/Frameworks/JGProgressHUD.framework/Info.plist
+2020-06-18 19:03:05 +0000  copying file ./Payload/PocketCare S.app/Frameworks/Eureka.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/PocketCare S.app/Frameworks/Eureka.framework/_CodeSignature/CodeResources
+copying file ./Payload/PocketCare S.app/Frameworks/Eureka.framework/Eureka ... 
+2020-06-18 19:03:06 +0000  6075152 bytes for ./Payload/PocketCare S.app/Frameworks/Eureka.framework/Eureka
+copying file ./Payload/PocketCare S.app/Frameworks/Eureka.framework/Info.plist ... 
+2020-06-18 19:03:06 +0000  734 bytes for ./Payload/PocketCare S.app/Frameworks/Eureka.framework/Info.plist
+copying file ./Payload/PocketCare S.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:06 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+2020-06-18 19:03:06 +0000  copying file ./Payload/PocketCare S.app/Frameworks/nanopb.framework/nanopb ... 
+2020-06-18 19:03:06 +0000  213760 bytes for ./Payload/PocketCare S.app/Frameworks/nanopb.framework/nanopb
+2020-06-18 19:03:06 +0000  copying file ./Payload/PocketCare S.app/Frameworks/nanopb.framework/Info.plist ... 
+2020-06-18 19:03:06 +0000  738 bytes for ./Payload/PocketCare S.app/Frameworks/nanopb.framework/Info.plist
+2020-06-18 19:03:06 +0000  copying file ./Payload/PocketCare S.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:06 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2020-06-18 19:03:06 +0000  copying file ./Payload/PocketCare S.app/Frameworks/Alamofire.framework/Alamofire ... 
+2020-06-18 19:03:06 +0000  2402336 bytes for ./Payload/PocketCare S.app/Frameworks/Alamofire.framework/Alamofire
+copying file ./Payload/PocketCare S.app/Frameworks/Alamofire.framework/Info.plist ... 
+2020-06-18 19:03:06 +0000  740 bytes for ./Payload/PocketCare S.app/Frameworks/Alamofire.framework/Info.plist
+2020-06-18 19:03:06 +0000  copying file ./Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:06 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework/_CodeSignature/CodeResources
+2020-06-18 19:03:06 +0000  copying file ./Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework/ScrollableGraphView ... 
+2020-06-18 19:03:06 +0000  1280896 bytes for ./Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework/ScrollableGraphView
+copying file ./Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework/Info.plist ... 
+2020-06-18 19:03:06 +0000  762 bytes for ./Payload/PocketCare S.app/Frameworks/ScrollableGraphView.framework/Info.plist
+copying file ./Payload/PocketCare S.app/Frameworks/Charts.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:06 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/Charts.framework/_CodeSignature/CodeResources
+copying file ./Payload/PocketCare S.app/Frameworks/Charts.framework/Charts ... 
+2020-06-18 19:03:07 +0000  9872336 bytes for ./Payload/PocketCare S.app/Frameworks/Charts.framework/Charts
+2020-06-18 19:03:07 +0000  copying file ./Payload/PocketCare S.app/Frameworks/Charts.framework/Info.plist ... 
+734 bytes for ./Payload/PocketCare S.app/Frameworks/Charts.framework/Info.plist
+2020-06-18 19:03:07 +0000  copying file ./Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework/_CodeSignature/CodeResources ... 
+2020-06-18 19:03:07 +0000  1798 bytes for ./Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework/_CodeSignature/CodeResources
+copying file ./Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework/AlamofireMapper ... 
+2020-06-18 19:03:07 +0000  200080 bytes for ./Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework/AlamofireMapper
+2020-06-18 19:03:07 +0000  copying file ./Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework/Info.plist ... 
+754 bytes for ./Payload/PocketCare S.app/Frameworks/AlamofireMapper.framework/Info.plist
+copying file ./Payload/PocketCare S.app/embedded.mobileprovision ... 
+2020-06-18 19:03:07 +0000  7428 bytes for ./Payload/PocketCare S.app/embedded.mobileprovision
+2020-06-18 19:03:07 +0000  copying file ./Payload/PocketCare S.app/Info.plist ... 
+2020-06-18 19:03:07 +0000  2447 bytes for ./Payload/PocketCare S.app/Info.plist
+2020-06-18 19:03:07 +0000  copying file ./Payload/PocketCare S.app/PocketCare S ... 
+2020-06-18 19:03:08 +0000  12420784 bytes for ./Payload/PocketCare S.app/PocketCare S
+copying file ./Payload/PocketCare S.app/PkgInfo ... 
+2020-06-18 19:03:08 +0000  8 bytes for ./Payload/PocketCare S.app/PkgInfo
+2020-06-18 19:03:08 +0000  /usr/bin/ditto exited with 0
+2020-06-18 19:03:08 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-06-18 19:03:08 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-06-18 19:03:08 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-06-18 19:03:08 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-06-18 19:03:08 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

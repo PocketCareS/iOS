@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BeaconArray" representedClassName="BeaconArray" syncable="YES" codeGenerationType="class">
+        <attribute name="hourEpoch" optional="YES" attributeType="String"/>
+        <attribute name="vbt" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Beacons" representedClassName="Beacons" syncable="YES" codeGenerationType="class">
+        <attribute name="deviceType" optional="YES" attributeType="String"/>
+        <attribute name="lastSeen" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="vbt" optional="YES" attributeType="String"/>
+        <relationship name="ongoingSessions" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OngoingSessions"/>
+        <relationship name="previousSessions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PreviousSessions"/>
+    </entity>
+    <entity name="Distances" representedClassName="Distances" syncable="YES" codeGenerationType="class">
+        <attribute name="approxDistance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="minute" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HistoricalData" representedClassName="HistoricalData" syncable="YES" codeGenerationType="class">
+        <attribute name="currentHour" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="numberOfEncounters" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalDuration" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="MaxRSSI_Values" representedClassName="MaxRSSI_Values" syncable="YES" codeGenerationType="class">
+        <attribute name="maxRSSI" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="minute" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OngoingSessions" representedClassName="OngoingSessions" syncable="YES" codeGenerationType="class">
+        <attribute name="endTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isValid" optional="YES" attributeType="String"/>
+        <attribute name="notify" optional="YES" attributeType="String"/>
+        <attribute name="smDistance" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="zipCode" optional="YES" attributeType="String"/>
+        <relationship name="distances" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Distances"/>
+        <relationship name="maxRSSI_vals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MaxRSSI_Values"/>
+    </entity>
+    <entity name="PreviousSessions" representedClassName="PreviousSessions" syncable="YES" codeGenerationType="class">
+        <attribute name="avgDist" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="countTen" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="countTwo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isValid" optional="YES" attributeType="String"/>
+        <attribute name="notify" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="terminationCondition" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Report" representedClassName="Report" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="recommendation" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ServerDump" representedClassName="ServerDump" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="param" optional="YES" attributeType="String"/>
+        <attribute name="response" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="VBT" representedClassName="VBT" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="vbt" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="BeaconArray" positionX="-261.19921875" positionY="71.859375" width="128" height="73"/>
+        <element name="Beacons" positionX="-559.19140625" positionY="-106.3984375" width="128" height="118"/>
+        <element name="Distances" positionX="-562.10546875" positionY="292.0546875" width="128" height="73"/>
+        <element name="HistoricalData" positionX="-261.90625" positionY="-169.8046875" width="128" height="103"/>
+        <element name="MaxRSSI_Values" positionX="-416.87890625" positionY="291.7109375" width="128" height="73"/>
+        <element name="OngoingSessions" positionX="-428.34765625" positionY="34.828125" width="128" height="163"/>
+        <element name="PreviousSessions" positionX="-682.80859375" positionY="90.3203125" width="128" height="163"/>
+        <element name="Report" positionX="-261.65234375" positionY="-40.75" width="128" height="88"/>
+        <element name="ServerDump" positionX="-259.74609375" positionY="168.4140625" width="128" height="88"/>
+        <element name="VBT" positionX="-258.76171875" positionY="265.890625" width="128" height="73"/>
+    </elements>
+</model>
