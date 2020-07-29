@@ -1,2 +1,3 @@
-# PocketCareS-iOS
-PocketCare S iOS Version 1.1.4 
+# PocketCare S- iOS
+
+![PocketCare S logo](https://github.com/PocketCareS/PocketCareS-Android/blob/development/logo.png)
