@@ -1,6 +1,6 @@
 # PocketCare S- iOS
 
-<img src="logo.png" width="300">
+<img src="https://github.com/PocketCareS/PocketCareS-Android/raw/development/logo.png" width="300">
 
 Call for code submission for COVID-19 track. 
 Description will come here. 
