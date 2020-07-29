@@ -30,6 +30,7 @@ Description will come here.
 
 ### Running PocketCare S using Xcode
 
+The steps to run PocketCare S on Xcode will come here. 
 
 ## How does PocketCare S Work?
 
