@@ -26,7 +26,7 @@ Description will come here.
 
 ### Prerequisites
 
-
+Prerequisites will come here. 
 
 ### Running PocketCare S using Xcode
 
