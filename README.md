@@ -4,7 +4,7 @@
 <img src="/assets/logo.png" width="300">
 </p>
 
-**Call for code submission for COVID-19 track.**
+**Call for Code submission for COVID-19 track.**
 
 PocketCare S is a comprehensive smartphone-based solution for monitoring close encounters. It is a bluetooth low energy (BLE) based solution which enables smartphones to send and receive anonymous beacon signals. It checks the distance between a smartphone and another beacon (or smartphone running PocketCare S) to see if they are close to each other (less than 2m). If so, the smartphone records the duration of such a close encounter with another beacon. 
 
