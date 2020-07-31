@@ -49,7 +49,7 @@ To install PocketCare S on your iPhone, follow these steps:
 4. The application is already configured with the IBM server URL. If you want to run server on your local machine, follow the PocketCareS-Server setup documentation and replace the **hostURL** variable in [Constants.swift](https://github.com/PocketCareS/PocketCareS-iOS/blob/master/PocketCare+/Extensions/Constants.swift) file with your URL. 
 
 ``` swift
-    static let hostURL = "YOUR_SERVER_URL";
+    static let hostURL = "YOUR_SERVER_URL"
 ```
 
 5. Click Run 
