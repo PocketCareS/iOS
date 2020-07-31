@@ -24,10 +24,7 @@ PocketCare S is designed to report social distance information without collectin
 
 ## Demo Video 
 
-<p align="center">
 [![Demo](http://img.youtube.com/vi/JnOWwagUgxQ/0.jpg)](http://www.youtube.com/watch?v=JnOWwagUgxQ "PocketCare S Demo")
-</p>
- 
  
 ## The Architecture
 
@@ -39,11 +36,16 @@ PocketCare S is designed to report social distance information without collectin
 
 ### Prerequisites
 
-
+Before you begin, make sure you satisfy the following requirements:
+1. You are running the project on a physical iPhone.
+2. The iPhone should be running iOS 13 or later.
 
 ### Running PocketCare S using Xcode
 
-
+In order to run the project on your iPhone, follow these steps:
+1. Connect iPhone to your Mac using USB cable
+2. Open PocketCare S using Xcode
+3. Click Run 
 
 ## How does PocketCare S Work?
 
