@@ -92,3 +92,9 @@ PocketCare S is also available on [Google Play](https://play.google.com/store/ap
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
+
+Special thanks to all who helped bring the project to fruition:
+
+Sourav Samanta, Rishabh Joshi, Jeetendra Gan, Shanelle Ileto, Aritra Paul, Dr. Peter Winkelstein, Dr. Matthew R. Bonner, Kevin Wang, Chen Yuan, Dheeraj Bhatia, Latheeshwarraj Mohanraj, Dr. Wen Dong, Dr. Tong Guan, Dr. Marina Blanton, Sasha Shapiro, Stephen Fung
+
+And our deepest gratitude for the support of **University at Buffalo**.
