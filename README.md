@@ -78,10 +78,7 @@ PocketCare S cares values the security and privacy of its users. The app does no
 
 ## Push Notifications for Exposure
 
-PocketCare S plans to implement automatic contact tracing by collaborating with healthcare organizations in the future. The iOS version of PocketCare S supports Push Notification, but in this particular demo we don't showcase it. 
-
-
-
+PocketCare S plans to implement automatic contact tracing by collaborating with healthcare organizations in the future. The iOS version of PocketCare S supports Push Notification, but in this particular demo we haven't implemented it. 
 
 **For a more detailed description, refer to the [additional information](#additional-information) section.**
 
