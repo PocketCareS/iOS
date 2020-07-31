@@ -5,7 +5,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -96,11 +96,11 @@ class VBTNameController: UIViewController, MessagingDelegate {
         nextButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50).isActive = true
         nextButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
-        view.addSubview(optionalLabel)
-        optionalLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
-        optionalLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
-        optionalLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        optionalLabel.bottomAnchor.constraint(equalTo: nextButton.topAnchor, constant: -40).isActive = true
+//        view.addSubview(optionalLabel)
+//        optionalLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+//        optionalLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
+//        optionalLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//        optionalLabel.bottomAnchor.constraint(equalTo: nextButton.topAnchor, constant: -40).isActive = true
     }
     
     @objc func handleNext() {
@@ -128,8 +128,12 @@ class VBTNameController: UIViewController, MessagingDelegate {
                             print("Got response yooo")
                             print(data.token)
                             
+//                            self.dismiss(animated: true, completion: nil)
+//                            let upc = UserProfileController()
+//                            self.navigationController?.pushViewController(upc, animated: true)
+                            
                             self.dismiss(animated: true, completion: nil)
-                            let upc = UserProfileController()
+                            let upc = PowerSavingImportantNote()
                             self.navigationController?.pushViewController(upc, animated: true)
                             
                         case let .failure(error):
@@ -138,8 +142,12 @@ class VBTNameController: UIViewController, MessagingDelegate {
                             print("RESPONSE CODE = \(response.response?.statusCode)")
                             print(response.error as Any)
                             
+//                            self.dismiss(animated: true, completion: nil)
+//                            let upc = UserProfileController()
+//                            self.navigationController?.pushViewController(upc, animated: true)
+                            
                             self.dismiss(animated: true, completion: nil)
-                            let upc = UserProfileController()
+                            let upc = PowerSavingImportantNote()
                             self.navigationController?.pushViewController(upc, animated: true)
                         }
                 }

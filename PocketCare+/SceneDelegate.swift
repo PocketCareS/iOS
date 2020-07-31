@@ -33,11 +33,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.backgroundColor = UIColor(red: 0/255, green: 91/255, blue: 187/255, alpha: 1.0)
-        fetchVersionFromFirebase {
-            if self.isActive == false {
-                print("Is Active False")
-                self.setupLatestUpdatedViews()
+//        fetchVersionFromFirebase {
+//            if self.isActive == false {
+//                print("Is Active False")
+//                self.setupLatestUpdatedViews()
+//            }
+//        }
+        
+        if self.defaults.bool(forKey: "hasEntered") == false {
+            
+            if defaults.bool(forKey: "grantPermissions") == true {
+                
+                 self.window?.rootViewController = UINavigationController(rootViewController: PermissionsController())
             }
+            else {
+                 self.window?.rootViewController = UINavigationController(rootViewController: WelcomeController())
+            }
+        } else {
+            self.window?.rootViewController = TabBarController()
         }
         
         window?.makeKeyAndVisible()
@@ -114,12 +127,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneWillEnterForeground(_ scene: UIScene) {
         // Called as the scene transitions from the background to the foreground.
         // Use this method to undo the changes made on entering the background.
-        fetchVersionFromFirebase {
-            if self.isActive == false {
-                print("Is Active False")
-                self.setupLatestUpdatedViews()
-            }
-        }
+        
+//        fetchVersionFromFirebase {
+//            if self.isActive == false {
+//                print("Is Active False")
+//                self.setupLatestUpdatedViews()
+//            }
+//        }
+        
+        self.setupLatestUpdatedViews()
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {

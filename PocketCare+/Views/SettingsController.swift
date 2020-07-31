@@ -1,12 +1,12 @@
 /*
 Copyright 2020 University at Buffalo
- 
+
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
- 
-    http://www.apache.org/licenses/LICENSE-2.0
- 
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,7 +30,7 @@ class SettingsController: FormViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left.slash.chevron.right"), style: .plain, target: self, action: #selector(handleDeveloperMode))
         title = "Settings"
         
         self.tableView.backgroundColor = UIColor(red: 0/255, green: 91/255, blue: 187/255, alpha: 1.0)
@@ -52,18 +52,18 @@ class SettingsController: FormViewController {
         
         form +++ Section("Information")
             
-            <<< ButtonRow(){ row in
-                row.title = "User Profile"
-            }.cellUpdate { cell, row in
-                cell.textLabel?.textColor = UIColor.black
-                cell.backgroundColor = UIColor.white
-                cell.accessoryType = .disclosureIndicator
-                cell.textLabel?.textAlignment = .left
-            }.onCellSelection({ (_, _) in
-                let upc = UINavigationController(rootViewController:
-                    UserProfileController())
-                self.present(upc, animated: true, completion: nil)
-            })
+//            <<< ButtonRow(){ row in
+//                row.title = "User Profile"
+//            }.cellUpdate { cell, row in
+//                cell.textLabel?.textColor = UIColor.black
+//                cell.backgroundColor = UIColor.white
+//                cell.accessoryType = .disclosureIndicator
+//                cell.textLabel?.textAlignment = .left
+//            }.onCellSelection({ (_, _) in
+//                let upc = UINavigationController(rootViewController:
+//                    UserProfileController())
+//                self.present(upc, animated: true, completion: nil)
+//            })
             
             <<< ButtonRow(){ row in
                 row.title = "About PocketCare S"
@@ -91,21 +91,21 @@ class SettingsController: FormViewController {
                         self.present(psic, animated: true, completion: nil)
                     })
         
-        <<< ButtonRow(){ row in
-            guard let appVersion = UIApplication.appVersion else { return }
-            row.title = "Current Version: \(appVersion)"
+//        <<< ButtonRow(){ row in
+//            guard let appVersion = UIApplication.appVersion else { return }
+//            row.title = "Current Version: \(appVersion)"
+//
+//        }.cellUpdate { cell, row in
+//            cell.textLabel?.textColor = UIColor.black
+//            cell.backgroundColor = UIColor.white
+//            cell.textLabel?.textAlignment = .left
             
-        }.cellUpdate { cell, row in
-            cell.textLabel?.textColor = UIColor.black
-            cell.backgroundColor = UIColor.white
-            cell.textLabel?.textAlignment = .left
+//            let tap = UITapGestureRecognizer(target: self, action: #selector(self.doubleTapped))
+//            tap.numberOfTapsRequired = 10
+//            cell.addGestureRecognizer(tap)
             
-            let tap = UITapGestureRecognizer(target: self, action: #selector(self.doubleTapped))
-            tap.numberOfTapsRequired = 10
-            cell.addGestureRecognizer(tap)
-            
-        }.onCellSelection({ (_, _) in
-        })
+//        }.onCellSelection({ (_, _) in
+//        })
         
         
         form +++ Section("Preferences") { section in

@@ -5,7 +5,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -28,12 +28,11 @@ class DisclaimerController: FormViewController {
         
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
         navigationController?.navigationBar.largeTitleTextAttributes = textAttributes
-        
 
         form +++ Section("Terms & Conditions")
             
             <<< TextAreaRow() { row in
-                row.value = "1. PocketCare S, in its current form, is primarily intended to measure social distance on UB (and SUNY) campuses and other pre-defined premises. It is not intended for contact tracing purposes. \n2. The daily health report in PocketCare S neither provides diagnostic services nor substitutes medical treatment. If you currently feel seriously ill, please seek medical help. \n3. Due to inherent limitations of the smartphone technology used, PocketCare S does not guarantee the information on the number, duration or distance of the close encounters is accurate. The actual values may be above or below the estimated values."
+                row.value = "1. PocketCare S, in its current form, is primarily intended to measure social distance. It can assist but is not intended for automating contact tracing operations. \n2. The daily health report in PocketCare S neither provides diagnostic services nor substitutes medical treatment. If you currently feel seriously ill, please seek medical help. \n3. Due to inherent limitations of the smartphone technology used, PocketCare S does not guarantee the information on the number, duration or distance of the close encounters is accurate. The actual values may be above or below the estimated values."
                 
                 row.textAreaHeight = TextAreaHeight.dynamic(initialTextViewHeight: 300)
                 row.cellUpdate { (cell, row) in
