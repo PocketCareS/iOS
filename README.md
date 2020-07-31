@@ -42,7 +42,7 @@ Before you begin, make sure you satisfy the following requirements:
 
 ### Running PocketCare S using Xcode
 
-In order to run the project on your iPhone, follow these steps:
+To run the project on your iPhone, follow these steps:
 1. Connect iPhone to your Mac using USB cable
 2. Open PocketCare S using Xcode
 3. Click Run 
