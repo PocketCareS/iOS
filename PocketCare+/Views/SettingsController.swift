@@ -30,7 +30,7 @@ class SettingsController: FormViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left.slash.chevron.right"), style: .plain, target: self, action: #selector(handleDeveloperMode))
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left.slash.chevron.right"), style: .plain, target: self, action: #selector(handleDeveloperMode))
         title = "Settings"
         
         self.tableView.backgroundColor = UIColor(red: 0/255, green: 91/255, blue: 187/255, alpha: 1.0)
@@ -44,7 +44,7 @@ class SettingsController: FormViewController {
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
         
         if defaults.bool(forKey: "developerMode") == true {
-            navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left.slash.chevron.right"), style: .plain, target: self, action: #selector(handleDeveloperMode))
+            //navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left.slash.chevron.right"), style: .plain, target: self, action: #selector(handleDeveloperMode))
         }
         else {
             
