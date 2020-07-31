@@ -40,11 +40,12 @@ Before you begin, make sure you satisfy the following requirements:
 1. You are running the project on a physical iPhone.
 2. The iPhone should be running iOS 13 or later.
 
-### Running PocketCare S using Xcode
+### Installing PocketCare S using Xcode
 
-To run the project on your iPhone, follow these steps:
+To install PocketCare S on your iPhone, follow these steps:
 1. Connect iPhone to your Mac using USB cable
 2. Open PocketCare S using Xcode
+3. Ensure Deployment Info > Target = iOS 13.0
 3. Click Run 
 
 ## How does PocketCare S Work?
@@ -74,7 +75,7 @@ PocketCare S cares values the security and privacy of its users. The app does no
 
 ## Built With 
 
-In this submission, we have used IBM’s Cloud **Red Hat OpenShift** to deploy our server (using **OpenJDK 8**), database (using **MongoDB**), the web portal (using **Node Js server**) and **IBM Push notification service** from **IBM Bluemix** in the android application of PocketCare S as a proof of concept. In the future, we will consider integrating other IBM services into the PocketCare S solution.
+In this submission, we have used IBM’s Cloud **Red Hat OpenShift** to deploy our server (using **OpenJDK 8**), database (using **MongoDB**), the web portal (using **Node JS server**) and **IBM Push Notification Service** from **IBM Bluemix** in the Android application of PocketCare S as a proof of concept. In the future, we will be integrating other IBM services into the PocketCare S solution.
 
 ## Project Road Map 
 
@@ -84,7 +85,7 @@ In this submission, we have used IBM’s Cloud **Red Hat OpenShift** to deploy o
 
 You can read more about PocketCare S on our [website](https://engineering.buffalo.edu/computer-science-engineering/pocketcares.html). We also have a [White Paper](https://docs.google.com/document/d/e/2PACX-1vT6UqA3HByzG5Di576gmz-JWzgKOFx5KLYGgJMpxcmWkOXYJ_vUFz2h1w2LnDNWI4y-xnyKhPi_s70p/pub) which can be accessed here.  
 
-PocketCare S is also available on [Google Play](https://play.google.com/store/apps/details?id=com.ub.pocketcares) and to the University at Buffalo (UB) community using the [Apple developer Enterprise Program](https://engineering.buffalo.edu/computer-science-engineering/pocketcares/pocketcares-ios.html).
+PocketCare S is also available on [Google Play](https://play.google.com/store/apps/details?id=com.ub.pocketcares) and to the University at Buffalo (UB) community using the [Apple Developer Enterprise Program](https://engineering.buffalo.edu/computer-science-engineering/pocketcares/pocketcares-ios.html).
 
 ## License 
 
