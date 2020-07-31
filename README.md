@@ -16,11 +16,12 @@ PocketCare S is designed to report social distance information without collectin
 2. [The Architecture](#the-architecture)
 3. [Getting Started](#getting-started)
 4. [How does PocketCare S Work?](#how-does-pocketcare-s-work)
-5. [Built With](#built-with)
-6. [Project Road Map](#project-road-map)
-7. [Additional Information](#additional-information)
-8. [License](#license)
-9. [Acknowledgments](#acknowledgements)
+5. [Push Notifications for Exposure](#push-notifications-for-exposure)
+6. [Built With](#built-with)
+7. [Project Road Map](#project-road-map)
+8. [Additional Information](#additional-information)
+9. [License](#license)
+10. [Acknowledgments](#acknowledgements)
 
 ## Demo Video 
 
