@@ -24,7 +24,7 @@ PocketCare S is designed to report social distance information without collectin
 
 ## Demo Video 
 
-[![Demo](http://img.youtube.com/vi/JnOWwagUgxQ/0.jpg)](http://www.youtube.com/watch?v=JnOWwagUgxQ "PocketCare S Demo")
+[![Demo](http://img.youtube.com/vi/JnOWwagUgxQ/0.jpg)](https://youtu.be/JUTQIcdgXwc "PocketCare S Demo")
  
 ## The Architecture
 
