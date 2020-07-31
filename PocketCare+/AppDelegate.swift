@@ -485,7 +485,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         
         let currentVBT_Binary = currentVBTMajor+currentVBTMinor
         
-        let binaryString_To_Advertise = "01111111"+currentVBT_Binary+"00000000"+"00000000"+"00000000"+"00000000"+"00000000000000000000000000000000000000000000000000000000000000000000"
+        let binaryString_To_Advertise = "01111111"+currentVBT_Binary+"0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         
         self.currentOverflowBits = binaryString_To_Advertise
     }
@@ -928,11 +928,13 @@ extension AppDelegate: CBPeripheralManagerDelegate, CBCentralManagerDelegate, CB
                 let discoveredBinaryString = OverflowAreaUtils.overflowServiceUuidsToBinaryString(overflowUuids: overflowIds)
                 let appIdentifier = discoveredBinaryString[1..<8] // Last 7 bits of the first byte
                 
-                let VBT_BytesArr = discoveredBinaryString[8..<40]
-                                
+                let VBT_BytesArr_major = discoveredBinaryString[8..<24]
+                let VBT_BytesArr_minor = discoveredBinaryString[24..<40]
+                
                 if (isCorrectIdentifier(bitString: appIdentifier)) {
-                                        
-                    let VBT = "\(UInt16(strtoul(VBT_BytesArr, nil, 2)))" //--> Convert bits to decimal
+                    let VBT = "\(UInt16(strtoul(VBT_BytesArr_major, nil, 2)))"+"\(UInt16(strtoul(VBT_BytesArr_minor, nil, 2)))" //--> Convert bits to decimal
+                    print("VBT -->", VBT)
+
                     saveBeacon(vbt: VBT)
 
                     let rssi = abs(RSSI as! Int)
