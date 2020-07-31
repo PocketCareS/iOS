@@ -1,6 +1,8 @@
 # PocketCare S - iOS
 
+<p align="center">
 <img src="/assets/logo.png" width="300">
+</p>
 
 **Call for code submission for COVID-19 track.**
 
