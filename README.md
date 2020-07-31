@@ -76,7 +76,7 @@ PocketCare S has made significant technological advances compared to other solut
 
 PocketCare S cares values the security and privacy of its users. The app does not collect any private information about an individual person.  All the data collected is anonymous and will not reveal any personally identifiable information. An Infographic with this information can be found [here](https://engineering.buffalo.edu/content/dam/engineering/computer-science-engineering/images/pocketcare/PocketCareS.pdf).
 
-### Getting App Client ID for Exposure Notification
+## Push Notifications for Exposure
 
 The iOS version of PocketCare S supports Push Notification, but in this particular demo we don't showcase it. 
 
