@@ -85,15 +85,15 @@ PocketCare S plans to implement automatic contact tracing by collaborating with 
 
 ## Built With
 
-### iOS
-- [BeaconMonitor](https://github.com/sebk/BeaconMonitor) - Used for close contact detection
-- [Charts](https://github.com/danielgindi/Charts) - Used to visualize data
-- [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - Used for encryption
-
 ### Android 
 - [Android Beacon Library](https://altbeacon.github.io/android-beacon-library/) - Used for close contact detection
 - [High Charts](https://www.highcharts.com/) - Used to visualize data
 - [IBM Push Notifications](https://www.ibm.com/cloud/push-notifications) - Push Notification for Exposure 
+
+### iOS
+- [BeaconMonitor](https://github.com/sebk/BeaconMonitor) - Used for close contact detection
+- [Charts](https://github.com/danielgindi/Charts) - Used to visualize data
+- [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - Used for encryption
 
 ### Server 
 - [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
