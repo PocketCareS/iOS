@@ -47,7 +47,7 @@ To install PocketCare S on your iPhone, follow these steps:
 1. Connect iPhone to your Mac using USB cable
 2. Open PocketCare S using Xcode
 3. Ensure Deployment Info > Target = iOS 13.0
-4. The application is already configured with the IBM server URL. If you want to run server on your local machine, follow the PocketCareS-Server setup documentation and replace the **hostURL** variable in [Constants.swift](https://github.com/PocketCareS/PocketCareS-iOS/blob/master/PocketCare+/Extensions/Constants.swift#L19) file with your URL. 
+4. The application is already configured with the IBM server URL. If you want to run server on your local machine, follow the [Server Setup Documentation](https://github.com/PocketCareS/server/blob/master/Installation.md) and replace the **hostURL** variable in [Constants.swift](https://github.com/PocketCareS/PocketCareS-iOS/blob/master/PocketCare+/Extensions/Constants.swift#L19) file with your URL. 
 
 ``` swift
     static let hostURL = "YOUR_SERVER_URL"
