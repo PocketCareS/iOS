@@ -59,10 +59,13 @@ To install PocketCare S on your iPhone, follow these steps:
 
 ### Key Highlights (Mobile Application)
 
-1. Close encounter data will be displayed in the mobile application after a close encounter session starts. A close encounter session starts when two people are within **2 meters** for at least **5 minutes**. 
-2. The **virtual bluetooth name** changes every hour to ensure **user privacy**. 
-3. Data upload to the server takes place every hour.
-4. Data is stored in user's phone for a maximum of 14 days. 
+1. PocketCare S uses **Bluetooth Low Energy (BLE)** to discover and compute the duration **close encounters**. 
+2. A **close encounter** session starts when two people are within **2 meters** for at least **5 minutes**. 
+3. **Close encounter** data will be displayed in the mobile application after a close encounter session starts. 
+4. Users are **notified immediately** if a close encounter session exceeds **10 minutes**.
+5. The **virtual bluetooth name** changes **every hour** to ensure **user privacy**. 
+6. Data stored in the mobile application is **anonymized** (contains no Personally Identifiable Information) and consists of **daily health report** and **close encounters** for a **maximum period of 14 days.**
+7. Data upload to the server takes place **every hour**.
 
 ### Detailed Architecture 
 
