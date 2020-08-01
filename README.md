@@ -83,9 +83,17 @@ PocketCare S plans to implement automatic contact tracing by collaborating with 
 **For a more detailed description, refer to the [additional information](#additional-information) section.**
 
 
-## Built With 
+## Built With
 
-In this submission, we have used IBM’s Cloud **Red Hat OpenShift** to deploy our server (using **OpenJDK 8**), database (using **MongoDB**), the web portal (using **Node JS server**) and **IBM Push Notification Service** from **IBM Cloud** in the Android application of PocketCare S as a proof of concept. In the future, we plan on integrating other IBM services into the PocketCare S solution.
+- [BeaconMonitor](https://github.com/sebk/BeaconMonitor) - Used for close contact detection in iOS and Android
+- [Charts](https://github.com/danielgindi/Charts) - Used to visualize data 
+- [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - Used for encryption
+- [Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
+  - Server using [OpenJDK 8](https://www.ibm.com/cloud/support-for-runtimes)
+  - Database using [MongoDB](https://www.ibm.com/cloud/databases-for-mongodb)
+  - Web Portal hosted using [Node JS Server](https://developer.ibm.com/node/cloud/)
+- [React](https://reactjs.org/) - Used to build the web portal 
+- [Spring Boot](https://spring.io/projects/spring-boot) - Framework for the Server
 
 ## Project Road Map 
 
